@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "crates/dist-typestate",
+    "crates/distributed-typestate-macro",
+]
+resolver = "3"
+license = "MIT OR Apache-2.0" 
+authors = ["Yamato Saito"]
