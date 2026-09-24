@@ -4,7 +4,8 @@ version = "0.1.0"
 edition = "2024"
 license = "MIT OR Apache-2.0" 
 authors = ["Yamato Saito"]
+repository = "https://github.com/x64neco/dist-typestate/tree/master/crates/dist-typestate"
 
 [dependencies]
 rusqlite = { version = "0.35", features = ["bundled"] }
-distributed-typestate-macro = { path = "../distributed-typestate-macro" }
+distributed-typestate-macro = { version = "0.1.0", path = "../distributed-typestate-macro" }
