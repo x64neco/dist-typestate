@@ -2,9 +2,8 @@
 name = "distributed-typestate-macro"
 version = "0.1.0"
 edition = "2024"
-license = "MIT OR Apache-2.0" 
-authors = ["Yamato Saito"]
-repository = "https://github.com/x64neco/dist-typestate/tree/master/crates/distributed-typestate-macro"
+description = "Procedural macros for the dist-typestate crate. Generates type-safe distributed state machines."
+license = "MIT OR Apache-2.0"
 
 [lib]
 proc-macro = true

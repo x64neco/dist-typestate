@@ -1,10 +1,10 @@
 [package]
-name = "dist-typestate" # Distributed Typestate
+name = "dist-typestate"
 version = "0.1.0"
 edition = "2024"
-license = "MIT OR Apache-2.0" 
-authors = ["Yamato Saito"]
-repository = "https://github.com/x64neco/dist-typestate/tree/master/crates/dist-typestate"
+description = "Type-safe distributed state machines using versioned capabilities and CAS. Bring Rust's typestate pattern to distributed systems."
+license = "MIT OR Apache-2.0"
+readme = "README.md"
 
 [dependencies]
 rusqlite = { version = "0.35", features = ["bundled"] }
